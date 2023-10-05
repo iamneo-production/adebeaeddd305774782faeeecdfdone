@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.62 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+testAdd  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'laptopController' defined in file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/controller/LaptopController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+testGetAll  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'laptopController' defined in file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/controller/LaptopController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+testGetOne  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'laptopController' defined in file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/controller/LaptopController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.examly.springapp.service.ApiService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
